@@ -2,7 +2,7 @@ package com.company;
 
    public class LargestElement {
     public static void main(String[] args) {
-        int arr[]={3,67,2,4},max=arr[0],min=arr[0];
+        int arr[]={3,67,299,4},max=arr[0],min=arr[0];
 
 
         for(int i=1;i<arr.length;i++){
