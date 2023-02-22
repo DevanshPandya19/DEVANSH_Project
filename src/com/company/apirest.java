@@ -39,10 +39,7 @@ public class apirest {
 
             Map<String,String> map=new HashMap<String, String>();
 
-            for (String s : Data) {
-                String[] t = s.split(":");
-                map.put(t[0], t[1]);
-            }
+            f
 
             for (String s : map.keySet()) {
                 System.out.println(s + " is " + map.get(s));
